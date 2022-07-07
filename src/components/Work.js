@@ -4,14 +4,14 @@ import RealEstate from '../assets/realestate.jpg';
 function Work() {
 
     return (
-        <div name='work' className='w-full md:h-screen text-gray-300 bg-[#73A9AD]'>
+        <div name='work' className='w-full md:h-screen background'>
 
             {/*Container*/}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
-                    <p className='py-6'>Check out some of my recent work</p>
+                    <p className='text-5xl font-bold inline text-pink-500 flex justify-center'>Work</p>
+                    <p className='py-4 font-bold'>Check out some of my recent work</p>
                 </div>
 
                 {/*Container*/}
@@ -30,13 +30,13 @@ function Work() {
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
+                                        className='btn-work'>
+                                        Live Demo
                                     </button>
                                 </a>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        className='m-2 btn-work'>
                                         Github
                                     </button>
                                 </a>
@@ -59,13 +59,13 @@ function Work() {
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
+                                        className='btn-work'>
+                                        Live Demo
                                     </button>
                                 </a>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        className='m-2 btn-work'>
                                         Github
                                     </button>
                                 </a>
@@ -88,13 +88,13 @@ function Work() {
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
+                                        className='btn-work'>
+                                        Live Demo
                                     </button>
                                 </a>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        className='m-2 btn-work'>
                                         Github
                                     </button>
                                 </a>
@@ -117,13 +117,13 @@ function Work() {
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
+                                        className='btn-work'>
+                                        Live Demo
                                     </button>
                                 </a>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        className='m-2 btn-work'>
                                         Github
                                     </button>
                                 </a>
@@ -146,13 +146,13 @@ function Work() {
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
+                                        className='btn-work'>
+                                        Live Demo
                                     </button>
                                 </a>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        className='m-2 btn-work'>
                                         Github
                                     </button>
                                 </a>
@@ -175,13 +175,13 @@ function Work() {
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
+                                        className='btn-work'>
+                                        Live Demo
                                     </button>
                                 </a>
                                 <a href="/">
                                     <button
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        className='m-2 btn-work'>
                                         Github
                                     </button>
                                 </a>

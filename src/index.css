@@ -8,10 +8,28 @@
     body {
         @apply font-[Raleway]
     }
+
     li {
         @apply px-4;
         @apply cursor-pointer;
     }
+}
+
+
+:root {
+    --light: #fffff
+}
+
+.textDark {
+    color: #3E505C;
+}
+
+
+.background {
+    background-color: var(--light);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1%);
+    background-size: 20px 20px;
+    color: #3E505C
 }
 
 .content-div {
@@ -24,8 +42,55 @@
 /*hsla is high strength low alloy steel.*/
 .content-div:hover {
     background-image: linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
-    )!important;
+            to right,
+            rgba(115, 169, 173, 1),
+            hsla(233.9, 89.5%, 92.5%, 0.8)
+    ) !important;
+}
+
+.skills-card {
+    background-color: #FFFFFF;
+    padding-top: 1rem;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.btn {
+    background-color: #F037A5;
+    border-radius: 8px;
+    color: #fff;
+    border-width: 2px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-work {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /*text-align: center;*/
+    font-weight: bold;
+}
+
+.btn-work:hover {
+    color: #F037A5;
+}
+
+.resume-card {
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    border-radius: 8px;
+}
+
+.key-skills-btn {
+    cursor: none;
+    background-color: #F037A5;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 3px;
 }
