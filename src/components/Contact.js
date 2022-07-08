@@ -1,6 +1,9 @@
 
 
 function Contact () {
+
+
+
     return (
         <div className='background'>
             <div name='contact' className=' w-full h-screen flex justify-center items-center p-4 mx-auto max-w-[1000px]'>
