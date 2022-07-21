@@ -1,6 +1,6 @@
 
 
-function Contact () {
+function Contact() {
 
 
 
@@ -22,7 +22,6 @@ function Contact () {
 
             </div>
         </div>
-
     );
 }
 
