@@ -14,7 +14,7 @@ function Navbar() {
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#73A9AD] text-gray-300'>
 
             <div>
-                <a href="/">
+                <a href="/" >
                     <img src={Logo} alt="Logo" style={{width: '80px'}}/>
                 </a>
 
