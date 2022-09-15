@@ -1,5 +1,4 @@
 import {HiOutlineMail} from "react-icons/hi";
-import {FaGithub} from "react-icons/fa";
 import {AiFillLinkedin, AiOutlinePhone} from "react-icons/ai";
 import {AiOutlineHome} from "react-icons/ai";
 
@@ -21,7 +20,7 @@ function Resume() {
                 <div className='card resume-card hover:scale-110 duration-500 flex justify-center'>
                     <div className='m-4'>
                         <span className='font-bold text-5xl'>Bernara Marat</span>
-                        <div className='font-bold'>Software Developer</div>
+                        <div className='font-bold'>Technology Support Analyst/ Software Developer</div>
                     </div>
 
                 </div>
@@ -62,13 +61,17 @@ function Resume() {
                 <div className=' resume-card hover:scale-110 duration-500'>
                     <div className='m-4'>
                         <span className='text-2xl font-bold mb-2'>Key Skills</span><br/>
+                        <button className='key-skills-btn'>React</button>
+                        <button className='key-skills-btn'>Redux</button>
                         <button className='key-skills-btn'>Semantic HTML</button>
                         <button className='key-skills-btn'>Advanced CSS</button>
                         <button className='key-skills-btn'>JavaScript</button>
+                        <button className='key-skills-btn'>TypeScript</button>
                         <button className='key-skills-btn'>Node.JS</button>
-                        <button className='key-skills-btn'>React</button>
                         <button className='key-skills-btn'>MongoDB</button>
+                        <button className='key-skills-btn'>Mongoose</button>
                         <button className='key-skills-btn'>Tailwind</button>
+                        <button className='key-skills-btn'>Git/GitHub/Version Control</button>
                     </div>
 
                 </div>
@@ -85,16 +88,17 @@ function Resume() {
                         {/*Job #1*/}
                         <li className=''>
                             <div><span className="font-bold text-pink-500">Skadden, Arps</span></div>
-                            <h3 className='italic'>Software Developer</h3>
+                            <h3 className='italic'>Technology Support Analyst</h3>
                             <div>2018 - Present</div>
 
                             <p className="description">
-                                Developed highly interactive in house web applications utilizing JavaScript, HTML5,
-                                JSON, ReactJS, and maintained RESTful API’s external web services, ensuring high
-                                performance on the SPA.
-                                Achieved business and system architecture requirements.
-                                Refactored a massive part of an old-written code resulting in a 50% decrease in loading
-                                time.
+                                Provide white-glove technology support on site based in the New York office. <br/>
+                                Participate on planning, testing and implementation of IT applications, hardware, mobile, audio/visual, telephony and user security
+                                measures to protect computer systems, network and data. <br/>
+                                Onboard new hires, fall/summer associates and provide an overview of the firm technology policies. <br/>
+                                Create and maintain documentation of new processes, configurations, and other end-user guides. <br/>
+                                Process and manage wireless/mobile devices and update our data bases accordingly.
+
                             </p>
                         </li>
                         {/*End of Job #1*/}
