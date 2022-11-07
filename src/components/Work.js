@@ -1,5 +1,6 @@
-import WorkImg from '../assets/workImg.jpeg';
+
 import RealEstate from '../assets/realestate.jpg';
+import GLX from '../assets/glx.png';
 
 function Work() {
 
@@ -18,7 +19,8 @@ function Work() {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/*Grid item 1*/}
-                    <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
+                    <div style={{backgroundImage: `url(${GLX})`}}
+                         className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
                     items-center mx-auto content-div '>
 
                         {/*Hover Effect*/}
@@ -28,13 +30,13 @@ function Work() {
                             </span>
 
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://tradegalaxy.us/">
                                     <button
                                         className='btn-work'>
                                         Live Demo
                                     </button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/BernaraD/glx">
                                     <button
                                         className='m-2 btn-work'>
                                         Github
