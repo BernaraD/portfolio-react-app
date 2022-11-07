@@ -20,7 +20,7 @@ function Resume() {
                 <div className='card resume-card hover:scale-110 duration-500 flex justify-center'>
                     <div className='m-4'>
                         <span className='font-bold text-5xl'>Bernara Marat</span>
-                        <div className='font-bold'>Technology Support Analyst/ Software Developer</div>
+                        <div className='font-bold'>Network System Analyst/ Software Developer</div>
                     </div>
 
                 </div>
@@ -88,7 +88,7 @@ function Resume() {
                         {/*Job #1*/}
                         <li className=''>
                             <div><span className="font-bold text-pink-500">Skadden, Arps</span></div>
-                            <h3 className='italic'>Technology Support Analyst</h3>
+                            <h3 className='italic'>Network System Analyst</h3>
                             <div>2018 - Present</div>
 
                             <p className="description">
@@ -111,15 +111,14 @@ function Resume() {
                             <div>2020 - 2021</div>
 
                             <p className="description">
-                                Developed full-stack application across various platforms using the latest
-                                industry-adopted technologies and frameworks such as React/Redux.
+                                Developed full-stack application across various platforms using the latest <br/>
+                                industry-adopted technologies and frameworks such as React/Redux.<br/>
                                 Developed HTML and CSS pages according to mockups and images provided by the UX
-                                designer.
-                                Implemented schedule calendar to display active events and tasks for clients. Customized
-                                it to work with MongoDB database by writing non-blocking code on the server-side using
-                                Express.JS.
-                                Built and maintained back-end on Node.js/Express.JS framework to send API requests.
-                                Conducted unit and load testing which reduced system failure rate by 60%
+                                designer.<br/>
+                                Integrated a payment system Stripe service, which brought 40% more registered clients.<br/>
+                                Implemented Google Maps API for converting geographic coordinates into a human-readable address<br/>
+                                Daily scrum meeting via Zoom, where we discussed our upcoming projects and progress<br/>
+                                Conducted unit and load testing which reduced system failure rate by 60%<br/>
 
                             </p>
                         </li>
