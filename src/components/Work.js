@@ -26,11 +26,11 @@ function Work() {
                         {/*Hover Effect*/}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                GLX Trading
                             </span>
 
                             <div className='pt-8 text-center'>
-                                <a href="https://tradegalaxy.us/">
+                                <a href="https://tradegalaxy.us/" target="_blank">
                                     <button
                                         className='btn-work'>
                                         Live Demo
