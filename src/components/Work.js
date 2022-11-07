@@ -30,13 +30,13 @@ function Work() {
                             </span>
 
                             <div className='pt-8 text-center'>
-                                <a href="https://tradegalaxy.us/" target="_blank">
+                                <a href="https://tradegalaxy.us/" target="_blank" rel="noopener noreferrer">
                                     <button
                                         className='btn-work'>
                                         Live Demo
                                     </button>
                                 </a>
-                                <a href="https://github.com/BernaraD/glx">
+                                <a href="https://github.com/BernaraD/glx" target="_blank" rel="noopener noreferrer">
                                     <button
                                         className='m-2 btn-work'>
                                         Github
