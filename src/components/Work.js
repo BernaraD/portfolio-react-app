@@ -1,6 +1,6 @@
-
 import RealEstate from '../assets/realestate.jpg';
 import GLX from '../assets/glx.png';
+import ToDoApp from '../assets/ToDoApp.png';
 
 function Work() {
 
@@ -107,23 +107,23 @@ function Work() {
                     {/*End of Grid Item 3*/}
 
                     {/*Grid Item 4*/}
-                    <div style={{backgroundImage: `url(${RealEstate})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
+                    <div style={{backgroundImage: `url(${ToDoApp})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
                     items-center mx-auto content-div '>
 
                         {/*Hover Effect*/}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                Task Manager
                             </span>
 
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://bernarad.github.io/to-do2021/">
                                     <button
                                         className='btn-work'>
                                         Live Demo
                                     </button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/BernaraD/to-do2021">
                                     <button
                                         className='m-2 btn-work'>
                                         Github
