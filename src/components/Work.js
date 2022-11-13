@@ -1,7 +1,8 @@
 import RealEstate from '../assets/realestate.jpg';
 import GLX from '../assets/glx.png';
 import ToDoApp from '../assets/ToDoApp.png';
-import MajesticBarber from '../assets/Majestic-Barber.png'
+import MajesticBarber from '../assets/Majestic-Barber.png';
+import NewYorkEats from '../assets/New York Eats.png';
 
 function Work() {
 
@@ -79,17 +80,17 @@ function Work() {
                     {/*End of Grid Item 2*/}
 
                     {/*Grid Item 3*/}
-                    <div style={{backgroundImage: `url(${RealEstate})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
+                    <div style={{backgroundImage: `url(${NewYorkEats})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
                     items-center mx-auto content-div '>
 
                         {/*Hover Effect*/}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                New York Eats
                             </span>
 
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://newyorkeats.netlify.app/">
                                     <button
                                         className='btn-work'>
                                         Live Demo
