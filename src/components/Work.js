@@ -2,7 +2,7 @@ import RealEstate from '../assets/realestate.jpg';
 import GLX from '../assets/glx.png';
 import ToDoApp from '../assets/ToDoApp.png';
 import MajesticBarber from '../assets/Majestic-Barber.png';
-import NewYorkEats from '../assets/New York Eats.png';
+import NewYorkEats from '../assets/NewYorkEats.png';
 
 function Work() {
 
@@ -51,7 +51,8 @@ function Work() {
                     {/*End of Grid item 1*/}
 
                     {/*Grid Item 2*/}
-                    <div style={{backgroundImage: `url(${MajesticBarber})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
+                    <div style={{backgroundImage: `url(${MajesticBarber})`}}
+                         className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
                     items-center mx-auto content-div '>
 
                         {/*Hover Effect*/}
@@ -80,7 +81,8 @@ function Work() {
                     {/*End of Grid Item 2*/}
 
                     {/*Grid Item 3*/}
-                    <div style={{backgroundImage: `url(${NewYorkEats})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
+                    <div style={{backgroundImage: `url(${NewYorkEats})`}}
+                         className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
                     items-center mx-auto content-div '>
 
                         {/*Hover Effect*/}
