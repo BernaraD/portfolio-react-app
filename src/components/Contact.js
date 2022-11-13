@@ -7,7 +7,9 @@ function Contact() {
     return (
         <div className='background'>
             <div name='contact' className=' w-full h-screen flex justify-center items-center p-4 mx-auto max-w-[1000px]'>
-                <form method='POST' action="https://getform.io/f/e2e6a2db-b9d8-486b-9e78-e2b173f9b80b" className='flex flex-col max-w-[600px] w-full'>
+                <form method='POST'
+                      action="https://getform.io/f/e2e6a2db-b9d8-486b-9e78-e2b173f9b80b"
+                      className='flex flex-col max-w-[600px] w-full'>
                     <div className='pb-8'>
                         <p className='text-5xl font-bold inline text-pink-500 flex justify-center'>Contact</p>
                         <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - bernara.marat@gmail.com</p>
