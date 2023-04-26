@@ -1,6 +1,6 @@
-import {HiOutlineMail} from "react-icons/hi";
-import {AiFillLinkedin, AiOutlinePhone} from "react-icons/ai";
-import {AiOutlineHome} from "react-icons/ai";
+import { HiOutlineMail } from "react-icons/hi";
+import { AiFillLinkedin, AiOutlinePhone } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 
 
 function Resume() {
@@ -8,15 +8,15 @@ function Resume() {
     return (
         <div name='resume' className='w-full h-screen background'>
 
-            {/*Container*/}
+            {/*Container*/ }
             <p className='text-5xl font-bold inline text-pink-500 flex justify-center'>
                 About
             </p>
 
             <div className='mt-8 grid lg:grid-cols-2 gap-10 max-w-[1200px] mx-auto p-4 '>
 
-                {/*Cards*/}
-                {/*Card#1*/}
+                {/*Cards*/ }
+                {/*Card#1*/ }
                 <div className='card resume-card hover:scale-110 duration-500 flex justify-center'>
                     <div className='m-4'>
                         <span className='font-bold text-5xl'>Bernara Marat</span>
@@ -24,28 +24,28 @@ function Resume() {
                     </div>
 
                 </div>
-                {/*Card#2*/}
+                {/*Card#2*/ }
                 <div className='card resume-card hover:scale-110 duration-500 flex justify-center'>
                     <div className='m-4'>
-                        {/*<span className='font-bold inline'>bernara.marat@gmail.com</span>*/}
+                        {/*<span className='font-bold inline'>bernara.marat@gmail.com</span>*/ }
                         <a className='flex items-center  text-grey-300 '
-                           href="mailto:bernara.marat@gmail.com"><HiOutlineMail size={25}/>bernara.marat@skadden.com
+                           href="mailto:bernara.marat@gmail.com"><HiOutlineMail size={ 25 }/>bernara.marat@gmail.com
                         </a>
                         <a className='flex items-center  text-grey-300'
-                           href=""><AiOutlinePhone size={30}/>+1 347 330 2047
+                           href=""><AiOutlinePhone size={ 30 }/>+1 347 330 2047
                         </a>
-                        <span className='flex text-grey-300'><AiOutlineHome size={25}/>New York, United States</span>
+                        <span className='flex text-grey-300'><AiOutlineHome size={ 25 }/>New York, United States</span>
                         <a className='flex items-center  text-grey-300 '
-                           href="https://www.linkedin.com/in/bernara-marat-15999ab5"><AiFillLinkedin size={30}/>LinkedIn
+                           href="https://www.linkedin.com/in/bernara-marat-15999ab5"><AiFillLinkedin size={ 30 }/>LinkedIn
                         </a>
                     </div>
 
                 </div>
 
-                {/*Card#3*/}
+                {/*Card#3*/ }
                 <div className='card resume-card hover:scale-110 duration-500'>
                     <div className='m-4'>
-                        {/*<span className='font-bold inline'>bernara.marat@gmail.com</span>*/}
+                        {/*<span className='font-bold inline'>bernara.marat@gmail.com</span>*/ }
                         <span className='text-2xl font-bold mb-2'>Summary</span><br/>
                         New York-based Full Stack Developer. Self-motivated learner with strong organisation,
                         time management and communication skills
@@ -57,7 +57,7 @@ function Resume() {
 
                 </div>
 
-                {/*Card#4*/}
+                {/*Card#4*/ }
                 <div className=' resume-card hover:scale-110 duration-500'>
                     <div className='m-4'>
                         <span className='text-2xl font-bold mb-2'>Key Skills</span><br/>
@@ -83,46 +83,50 @@ function Resume() {
             <div className='card resume-card hover:scale-110 duration-500 flex lg:mx-20 '>
                 <div className='m-4'>
 
-                    {/*Experience*/}
+                    {/*Experience*/ }
                     <ul className="list-outside list-disc ml-6 ">
-                        {/*Job #1*/}
-                        <li className=''>
-                            <div><span className="font-bold text-pink-500">Skadden, Arps</span></div>
-                            <h3 className='italic'>Network System Analyst</h3>
-                            <div>2018 - Present</div>
-
-                            <p className="description">
-                                Provide white-glove technology support on site based in the New York office. <br/>
-                                Participate on planning, testing and implementation of IT applications, hardware, mobile, audio/visual, telephony and user security
-                                measures to protect computer systems, network and data. <br/>
-                                Onboard new hires, fall/summer associates and provide an overview of the firm technology policies. <br/>
-                                Create and maintain documentation of new processes, configurations, and other end-user guides. <br/>
-                                Process and manage wireless/mobile devices and update our data bases accordingly.
-
-                            </p>
-                        </li>
-                        {/*End of Job #1*/}
-                        <br/>
-
-                        {/*Job #2*/}
+                        {/*Job #1*/ }
                         <li>
                             <div><span className="font-bold text-pink-500">Kompot ERP</span></div>
                             <h3 className="italic">Front End Developer</h3>
-                            <div>2020 - 2021</div>
+                            <div>2020 - Present</div>
 
                             <p className="description">
                                 Developed full-stack application across various platforms using the latest <br/>
                                 industry-adopted technologies and frameworks such as React/Redux.<br/>
                                 Developed HTML and CSS pages according to mockups and images provided by the UX
                                 designer.<br/>
-                                Integrated a payment system Stripe service, which brought 40% more registered clients.<br/>
-                                Implemented Google Maps API for converting geographic coordinates into a human-readable address<br/>
-                                Daily scrum meeting via Zoom, where we discussed our upcoming projects and progress<br/>
+                                Integrated a payment system Stripe service, which brought 40% more registered
+                                clients.<br/>
+                                Implemented Google Maps API for converting geographic coordinates into a human-readable
+                                address<br/>
+                                Daily scrum meetings, and collaborated to build aesthetically appealing web applications<br/>
                                 Conducted unit and load testing which reduced system failure rate by 60%<br/>
+                            </p>
+                        </li>
+                        {/*End of Job #1*/ }
+                        <br/>
+
+                        {/*Job #2*/ }
+                        <li className=''>
+                            <div><span className="font-bold text-pink-500">Skadden, Arps</span></div>
+                            <h3 className='italic'>QA Engineer</h3>
+                            <div>2018 - 2020</div>
+
+                            <p className="description">
+                                Created test documentation and run cross-browser compatibility tests, using Chrome, Edge
+                                browsers <br/>
+                                Conducted full regression testing of new builds and report issues to a QA lead<br/>
+                                Identified and prioritized bugs to a development team and escalated critical ones as
+                                needed<br/>
+                                Executed series of smoke tests to confirm build stability for each iteration prior to
+                                release<br/>
 
                             </p>
                         </li>
-                        {/*End of Job #2*/}
+                        {/*End of Job #2*/ }
+
+                        <br/>
                     </ul>
                 </div>
             </div>
