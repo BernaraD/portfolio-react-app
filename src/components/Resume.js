@@ -51,7 +51,7 @@ function Resume() {
                         time management and communication skills
                         Currently working on designing, developing and implementing web based applications using
                         range of technologies and programming languages.
-                        Seeking to leverage broad development experience and hands-on technical expertise
+                        Seeking to leverage development experience and hands-on technical expertise
                         in a challenging role as a Full-stack developer.
                     </div>
 
@@ -86,10 +86,29 @@ function Resume() {
                     {/*Experience*/ }
                     <ul className="list-outside list-disc ml-6 ">
                         {/*Job #1*/ }
+                        <li className=''>
+                            <div><span className="font-bold text-pink-500">Skadden, Arps</span></div>
+                            <h3 className='italic'>Senior Network analyst </h3>
+                            <div>2018 - Present</div>
+
+                            <p className="description">
+                                Provide white-glove technology support on site based in the New York office <br/>
+                                Participate on planning, testing and implementation of IT applications, hardware, mobile,
+                                audio/visual, telephony and user security measures to protect computer systems, network, and data<br/>
+                                Onboard new hires, fall/summer associates and provide an overview of the firm technology policies<br/>
+                                Create and maintain documentation of new processes, configurations, and other end-user guides<br/>
+                                Process and manage wireless/mobile devices and update our data bases accordingly<br/>
+
+                            </p>
+                        </li>
+                        {/*End of Job #1*/ }
+
+                        <br/>
+                        {/*Job #2*/ }
                         <li>
                             <div><span className="font-bold text-pink-500">Kompot ERP</span></div>
                             <h3 className="italic">Front End Developer</h3>
-                            <div>2020 - Present</div>
+                            <div>March 2020 - August 2022</div>
 
                             <p className="description">
                                 Developed full-stack application across various platforms using the latest <br/>
@@ -100,33 +119,13 @@ function Resume() {
                                 clients.<br/>
                                 Implemented Google Maps API for converting geographic coordinates into a human-readable
                                 address<br/>
-                                Daily scrum meetings, and collaborated to build aesthetically appealing web applications<br/>
+                                Attended daily scrum meetings, and collaborated to build aesthetically appealing web applications<br/>
                                 Conducted unit and load testing which reduced system failure rate by 60%<br/>
                             </p>
                         </li>
-                        {/*End of Job #1*/ }
-                        <br/>
-
-                        {/*Job #2*/ }
-                        <li className=''>
-                            <div><span className="font-bold text-pink-500">Skadden, Arps</span></div>
-                            <h3 className='italic'>QA Engineer</h3>
-                            <div>2018 - 2020</div>
-
-                            <p className="description">
-                                Created test documentation and run cross-browser compatibility tests, using Chrome, Edge
-                                browsers <br/>
-                                Conducted full regression testing of new builds and report issues to a QA lead<br/>
-                                Identified and prioritized bugs to a development team and escalated critical ones as
-                                needed<br/>
-                                Executed series of smoke tests to confirm build stability for each iteration prior to
-                                release<br/>
-
-                            </p>
-                        </li>
                         {/*End of Job #2*/ }
-
                         <br/>
+
                     </ul>
                 </div>
             </div>

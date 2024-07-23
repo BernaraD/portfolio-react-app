@@ -21,33 +21,33 @@ function Work() {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/*Grid item 1*/}
-                    <div style={{backgroundImage: `url(${GLX})`}}
-                         className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
-                    items-center mx-auto content-div '>
+                    {/*<div style={{backgroundImage: `url(${GLX})`}}*/}
+                    {/*     className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center*/}
+                    {/*items-center mx-auto content-div '>*/}
 
-                        {/*Hover Effect*/}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                GLX Trading
-                            </span>
+                    {/*    /!*Hover Effect*!/*/}
+                    {/*    <div className='opacity-0 group-hover:opacity-100'>*/}
+                    {/*        <span className='text-2xl font-bold text-white tracking-wider'>*/}
+                    {/*            GLX Trading*/}
+                    {/*        </span>*/}
 
-                            <div className='pt-8 text-center'>
-                                <a href="https://tradegalaxy.us/" target="_blank" rel="noopener noreferrer">
-                                    <button
-                                        className='btn-work'>
-                                        Live Demo
-                                    </button>
-                                </a>
-                                <a href="https://github.com/BernaraD/glx" target="_blank" rel="noopener noreferrer">
-                                    <button
-                                        className='m-2 btn-work'>
-                                        Github
-                                    </button>
-                                </a>
+                    {/*        <div className='pt-8 text-center'>*/}
+                    {/*            <a href="https://tradegalaxy.us/" target="_blank" rel="noopener noreferrer">*/}
+                    {/*                <button*/}
+                    {/*                    className='btn-work'>*/}
+                    {/*                    Live Demo*/}
+                    {/*                </button>*/}
+                    {/*            </a>*/}
+                    {/*            <a href="https://github.com/BernaraD/glx" target="_blank" rel="noopener noreferrer">*/}
+                    {/*                <button*/}
+                    {/*                    className='m-2 btn-work'>*/}
+                    {/*                    Github*/}
+                    {/*                </button>*/}
+                    {/*            </a>*/}
 
-                            </div>
-                        </div>
-                    </div>
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                     {/*End of Grid item 1*/}
 
                     {/*Grid Item 2*/}
@@ -140,61 +140,61 @@ function Work() {
                     {/*End of Grid Item 4*/}
 
                     {/*Grid Item 5*/}
-                    <div style={{backgroundImage: `url(${RealEstate})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
-                    items-center mx-auto content-div '>
+                    {/*<div style={{backgroundImage: `url(${RealEstate})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center*/}
+                    {/*items-center mx-auto content-div '>*/}
 
-                        {/*Hover Effect*/}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
-                            </span>
+                    {/*    /!*Hover Effect*!/*/}
+                    {/*    <div className='opacity-0 group-hover:opacity-100'>*/}
+                    {/*        <span className='text-2xl font-bold text-white tracking-wider'>*/}
+                    {/*            React JS Application*/}
+                    {/*        </span>*/}
 
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button
-                                        className='btn-work'>
-                                        Live Demo
-                                    </button>
-                                </a>
-                                <a href="/">
-                                    <button
-                                        className='m-2 btn-work'>
-                                        Github
-                                    </button>
-                                </a>
+                    {/*        <div className='pt-8 text-center'>*/}
+                    {/*            <a href="/">*/}
+                    {/*                <button*/}
+                    {/*                    className='btn-work'>*/}
+                    {/*                    Live Demo*/}
+                    {/*                </button>*/}
+                    {/*            </a>*/}
+                    {/*            <a href="/">*/}
+                    {/*                <button*/}
+                    {/*                    className='m-2 btn-work'>*/}
+                    {/*                    Github*/}
+                    {/*                </button>*/}
+                    {/*            </a>*/}
 
-                            </div>
-                        </div>
-                    </div>
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                     {/*End of Grid Item 5*/}
 
                     {/*Grid Item 6*/}
-                    <div style={{backgroundImage: `url(${RealEstate})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center
-                    items-center mx-auto content-div '>
+                    {/*<div style={{backgroundImage: `url(${RealEstate})`}} className='shadow-lg shadow-[#7F7C82] group container rounded-md flex justify-center*/}
+                    {/*items-center mx-auto content-div '>*/}
 
-                        {/*Hover Effect*/}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
-                            </span>
+                    {/*    /!*Hover Effect*!/*/}
+                    {/*    <div className='opacity-0 group-hover:opacity-100'>*/}
+                    {/*        <span className='text-2xl font-bold text-white tracking-wider'>*/}
+                    {/*            React JS Application*/}
+                    {/*        </span>*/}
 
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button
-                                        className='btn-work'>
-                                        Live Demo
-                                    </button>
-                                </a>
-                                <a href="/">
-                                    <button
-                                        className='m-2 btn-work'>
-                                        Github
-                                    </button>
-                                </a>
+                    {/*        <div className='pt-8 text-center'>*/}
+                    {/*            <a href="/">*/}
+                    {/*                <button*/}
+                    {/*                    className='btn-work'>*/}
+                    {/*                    Live Demo*/}
+                    {/*                </button>*/}
+                    {/*            </a>*/}
+                    {/*            <a href="/">*/}
+                    {/*                <button*/}
+                    {/*                    className='m-2 btn-work'>*/}
+                    {/*                    Github*/}
+                    {/*                </button>*/}
+                    {/*            </a>*/}
 
-                            </div>
-                        </div>
-                    </div>
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                     {/*End of Grid Item 6*/}
 
                 </div>
